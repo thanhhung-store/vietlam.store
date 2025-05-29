@@ -1,0 +1,954 @@
+.custom-tooltip {
+    /* Cải thiện độ mượt khi hiện và ẩn */
+    pointer-events: none; /* Đảm bảo không gây ảnh hưởng đến hover */
+    z-index: 99;
+    transition: unset;
+    opacity: 1 !important;
+  }
+  
+  .custom-tooltip .tooltip-arrow {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+  }
+  
+  .tooltip[data-popper-placement="bottom"] .tooltip-arrow {
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 10px solid #e6f0f8;
+    top: -12px;
+  }
+  
+  .tooltip[data-popper-placement="top"] .tooltip-arrow {
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 10px solid #e6f0f8;
+    bottom: -12px;
+  }
+  
+  .tooltip[data-popper-placement="right"] .tooltip-arrow {
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-right: 10px solid #e6f0f8;
+    bottom: -12px;
+    left: -12px;
+  }
+  
+  .tooltip[data-popper-placement="left"] .tooltip-arrow {
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 10px solid #e6f0f8;
+    bottom: -12px;
+    right: -12px;
+  }
+  
+  .tooltip.top .tooltip-arrow,
+  .tooltip.top-left .tooltip-arrow,
+  .tooltip.top-right .tooltip-arrow {
+    border-top-color: #e6f0f8;
+  }
+  .tooltip.bottom .tooltip-arrow,
+  .tooltip.bottom-left .tooltip-arrow,
+  .tooltip.bottom-right .tooltip-arrow {
+    border-bottom-color: #e6f0f8;
+  }
+  .tooltip-inner {
+    background-color: #e6f0f8;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000;
+    padding: 8px 15px;
+    border-radius: 10px;
+    text-align: justify;
+    max-width: 200px;
+    word-break: break-word;
+  }
+  
+  .tenten_25072024 .tg_header_2024 {
+    padding: 20px 0px;
+    position: relative;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+  .tenten_25072024 .tg_header_2024 > .container {
+    max-width: 1870px;
+  }
+  .tenten_25072024 .container {
+    max-width: 1326px;
+    width: 100% !important;
+    margin: 0px auto;
+  }
+  .tenten_25072024 .tg_header_2024 .hd_flex {
+    display: flex;
+    align-items: center;
+  }
+  .tenten_25072024 .tg_header_2024 .hd_left {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+  }
+  .tenten_25072024 .tg_header_2024 .logo_tenten {
+    position: relative;
+    padding: 0px 16px 0px 0px;
+  }
+  .tenten_25072024 .tg_header_2024 .logo_tenten:before {
+    position: absolute;
+    content: "";
+    height: 29px;
+    width: 1px;
+    background: #bad2e7;
+    top: 50%;
+    right: 0px;
+    transform: translate(0px, -50%);
+  }
+  .tenten_25072024 .tg_header_2024 .logo_numberone {
+    padding: 0px 0px 0px 16px;
+  }
+  .tenten_25072024 .tg_header_2024 .hd_middle {
+    width: 60%;
+  }
+  .tenten_25072024 .tg_header_2024 .tg_nav_primary_2024 {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    justify-content: center;
+  }
+  .tenten_25072024 .tg_header_2024 .tg_menu_hd_2024 .tg_nav_l_2024 {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+  }
+  .tenten_25072024 .tg_header_2024 .tg_menu_hd_2024 .tg_nav_l_2024 > li > a {
+    display: inline-block;
+    font-weight: 500;
+    color: #131a1f;
+    position: relative;
+    transition: all 0.3s;
+  }
+  
+  .tenten_25072024 .tg_header_2024 .tg_menu_hd_2024 .tg_nav_l_2024 > li > a {
+    display: inline-block;
+    font-weight: 500;
+    color: #131a1f;
+    position: relative;
+    transition: all 0.3s;
+  }
+  .tenten_25072024
+    .tg_header_2024
+    .tg_menu_hd_2024
+    .tg_nav_l_2024
+    > li
+    > a:before {
+    position: absolute;
+    content: "";
+    background: transparent;
+    width: 100%;
+    height: 20px;
+    bottom: -20px;
+    left: 0px;
+  }
+  .tenten_25072024
+    .tg_header_2024
+    .tg_menu_hd_2024
+    .tg_nav_l_2024
+    > li.menu-item-has-children
+    > a:after {
+    content: url("https://tenten.vn/landing/header_footer_img/25072024-hd-arr-icon-black.svg");
+    position: relative;
+    top: 3px;
+    transition: all 0.3s;
+  }
+  .tenten_25072024
+    .tg_header_2024
+    .tg_menu_hd_2024
+    .tg_nav_l_2024
+    > li.menu-item-has-children
+    > a:hover:after {
+    content: url("https://tenten.vn/landing/header_footer_img/25072024-hd-arr-icon-blue.svg");
+  }
+  .tenten_25072024
+    .tg_header_2024
+    .tg_menu_hd_2024
+    .tg_nav_l_2024
+    > li
+    > a:hover {
+    color: #0066b2;
+  }
+  .tenten_25072024
+    .tg_header_2024
+    .tg_menu_hd_2024
+    .tg_nav_l_2024
+    > li.menu-item-has-children
+    > a {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+  }
+  .tenten_25072024
+    .tg_header_2024
+    .tg_menu_hd_2024
+    .tg_nav_l_2024
+    > li
+    > ul.sub-menu {
+    position: absolute;
+    width: 100%;
+    top: 86px;
+    left: 0px;
+    z-index: 9999999999;
+    background: #fff;
+    padding: 30px 0px 40px 0px;
+    transition: all 0.3s;
+    opacity: 0;
+    visibility: hidden;
+  }
+  .tenten_25072024
+    .tg_header_2024
+    .tg_menu_hd_2024
+    .tg_nav_l_2024
+    > li:hover
+    > ul.sub-menu {
+    opacity: 1;
+    visibility: visible;
+    top: 81px;
+  }
+  .tenten_25072024
+    .tg_header_2024
+    .tg_menu_hd_2024
+    .tg_nav_l_2024
+    > li
+    > ul.sub-menu
+    .sub_nav_l_ct {
+    display: flex;
+    gap: 80px;
+  }
+  .tenten_25072024
+    .tg_header_2024
+    .tg_menu_hd_2024
+    .tg_nav_l_2024
+    > li
+    > ul.sub-menu
+    .sub_nav_l_ct
+    .l_left {
+    width: 57%;
+    display: flex;
+    gap: 20px;
+  }
+  .tenten_25072024
+    .tg_header_2024
+    .tg_menu_hd_2024
+    .tg_nav_l_2024
+    > li
+    > ul.sub-menu
+    .sub_nav_l_ct
+    .l_left_flex {
+    width: 65%;
+  }
+  .tenten_25072024 .l_left_ct {
+    background: transparent;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0px 0px 0px -20px;
+    position: relative;
+  }
+  .tenten_25072024
+    .tg_header_2024
+    .tg_menu_hd_2024
+    .tg_nav_l_2024
+    > li
+    > ul.sub-menu
+    .sub_nav_l_ct
+    .l_left_ct
+    strong {
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 600;
+    color: #000;
+  }
+  .tenten_25072024 .tg_header_2024 .l_left_ct strong a {
+    color: #181818;
+    transition: all 0.3s;
+  }
+  .tenten_25072024 .tg_header_2024 .l_left_ct:hover strong a {
+    color: #0066b2;
+  }
+  .tenten_25072024 .tg_header_2024 .l_left_ct strong a::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .tenten_25072024 .tg_header_2024 .l_exc {
+    display: block;
+    margin: 6px 0px 0px 0px;
+    color: #4e4e4e;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .tenten_25072024 .tg_header_2024 .tg_menu_hd_2024 .l_left_ct:hover {
+    background: #f4f8fb;
+  }
+  .tenten_25072024 .tg_header_2024 .l_left_ct:hover strong a {
+    color: #0066b2;
+  }
+  .tenten_25072024
+    .tg_header_2024
+    .tg_menu_hd_2024
+    .tg_nav_l_2024
+    > li
+    > ul.sub-menu
+    .sub_nav_l_ct
+    .kt_dv_khac12042023 {
+    width: 35%;
+  }
+  .tenten_25072024 .tg_header_2024 .kt_dv_khac12042023 span {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 600;
+    color: rgb(24 24 24 / 70%);
+    border-left: 2px solid #0066b2;
+    padding: 0px 0px 0px 10px;
+  }
+  .tenten_25072024
+    .tg_header_2024
+    .tg_menu_hd_2024
+    .tg_nav_l_2024
+    > li
+    > ul.sub-menu
+    .sub_nav_l_ct
+    .kt_dv_khac12042023
+    ul {
+    padding: 0px 0px 10px 0px;
+    margin: 20px 0px 0px 0px;
+  }
+  .tenten_25072024 .tg_header_2024 .kt_dv_khac12042023 ul li {
+    margin: 0px 0px 10px 0px;
+    font-weight: 500;
+  }
+  .tenten_25072024 .tg_header_2024 .kt_dv_khac12042023 ul > li:last-child {
+    margin: 0px;
+  }
+  .tenten_25072024 .tg_header_2024 .kt_dv_khac12042023 ul li a {
+    display: inline-block;
+    color: #181818;
+  }
+  .tenten_25072024 .tg_header_2024 .kt_dv_khac12042023 ul li a:hover {
+    color: #0066b2 !important;
+  }
+  .tenten_25072024
+    .tg_header_2024
+    .tg_menu_hd_2024
+    .tg_nav_l_2024
+    > li
+    > ul.sub-menu
+    .sub_nav_l_ct
+    .l_right {
+    width: 43%;
+  }
+  .tenten_25072024
+    .tg_header_2024
+    .tg_menu_hd_2024
+    .tg_nav_l_2024
+    > li
+    > ul.sub-menu
+    .sub_nav_l_ct
+    .l_right
+    .images_kt_1242023 {
+    height: 288px;
+  }
+  .tenten_25072024
+    .tg_header_2024
+    .tg_menu_hd_2024
+    .tg_nav_l_2024
+    > li
+    > ul.sub-menu
+    .sub_nav_l_ct
+    .l_right
+    .images_kt_1242023
+    img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+  .tenten_25072024 .tg_header_2024 .hd_right {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+  }
+  .tenten_25072024 .tg_header_2024 .tg_cart_hd_2024 {
+    position: relative;
+  }
+  .tenten_25072024 .tg_header_2024 .tg_cart_hd_2024 span {
+    position: absolute;
+    top: 0px;
+    right: -4px;
+    width: 20px;
+    height: 12px;
+    background: red;
+    border-radius: 4px;
+    color: #fff;
+    line-height: 12px;
+    text-align: center;
+    font-size: 9px;
+    font-weight: 500;
+  }
+  .tenten_25072024 .tg_header_2024 .tg_register_hd_2024 {
+    padding: 0px 16px 0px 20px;
+  }
+  .tenten_25072024 .tg_header_2024 .tg_register_hd_2024 a {
+    font-size: 14px;
+    line-height: 22px;
+    padding: 8px 18px;
+  }
+  .tenten_25072024 .tg_header_2024 .tg_tenten_btn {
+    display: inline-block;
+    text-align: center;
+    border-radius: 90px;
+    font-weight: 500;
+    color: #fff;
+    background: #0066b2;
+    border: 1px solid #0066b2;
+    position: relative;
+    transition: all 0.3s;
+    overflow: hidden;
+  }
+  .tenten_25072024 .tg_header_2024 .tg_tenten_btn span {
+    transition: opacity 0.6s, transform 0.8s;
+    transition-timing-function: cubic-bezier(0.15, 0.85, 0.31, 1);
+    display: inline-block;
+    margin: 0px !important;
+  }
+  .tenten_25072024 .tg_header_2024 .tg_tenten_btn:hover span {
+    transform: translateY(-150%);
+  }
+  .tenten_25072024 .tg_header_2024 .tg_tenten_btn span strong {
+    transition: opacity 0.6s, transform 0.8s;
+    transition-timing-function: cubic-bezier(0.15, 0.85, 0.31, 1);
+    display: inline-block;
+    font-weight: 500;
+  }
+  .tenten_25072024 .tg_header_2024 .tg_tenten_btn span > strong:nth-child(2) {
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 80%);
+    opacity: 0;
+  }
+  .tenten_25072024
+    .tg_header_2024
+    .tg_tenten_btn:hover
+    span
+    > strong:nth-child(1) {
+    opacity: 0;
+  }
+  .tenten_25072024
+    .tg_header_2024
+    .tg_tenten_btn:hover
+    span
+    > strong:nth-child(2) {
+    transform: translate(-50%, 100%);
+    opacity: 1;
+  }
+  .tenten_25072024 .tg_header_2024 .tg_nav_primary_2024 .tg_label_new em {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 14px;
+    color: #ffffff;
+    padding: 0px 3px;
+    background: #f42e1c;
+    border-radius: 4px;
+    position: absolute;
+    top: -10px;
+    left: 40px;
+  }
+  .tenten_25072024
+    .tg_nav_primary_2024
+    li.tg_phanmem_mn2023
+    .sub-menu
+    .r_right
+    ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  .tenten_25072024
+    .tg_nav_primary_2024
+    li.tg_phanmem_mn2023
+    .sub-menu
+    .r_right
+    ul
+    li {
+    width: calc(50% - 7.5px);
+    padding: 0px;
+  }
+  .tenten_25072024
+    .tg_nav_primary_2024
+    li.tg_phanmem_mn2023
+    .sub-menu
+    .r_right
+    ul
+    li
+    a {
+    color: #131a1f;
+  }
+  .tenten_25072024 .tg_nav_primary_2024 li.tg_phanmem_mn2023 {
+    position: relative;
+  }
+  .tenten_25072024 .tg_nav_primary_2024 li.tg_phanmem_mn2023 .sub-menu {
+    width: 700px !important;
+    left: -490px !important;
+    padding: 35px !important;
+    top: 50px !important;
+    box-shadow: 0px 0px 4px #ccc;
+  }
+  .tenten_25072024
+    .tg_nav_primary_2024
+    li.tg_phanmem_mn2023
+    .sub-menu
+    .r_right
+    ul
+    li
+    a {
+    color: #131a1f;
+    transition: all 0.3s;
+  }
+  .tenten_25072024
+    .tg_nav_primary_2024
+    li.tg_phanmem_mn2023
+    .sub-menu
+    .r_right
+    ul
+    li
+    a:hover {
+    color: #0066b2;
+  }
+  
+  .tenten_25072024 .tg_header_2024 #menu_mobile_full_hd2024 {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+    -webkit-transition: -webkit-transform 0.3s ease;
+    -moz-transition: -moz-transform 0.3s ease;
+    -o-transition: -o-transform 0.3s ease;
+    transition: transform 0.3s ease;
+    z-index: 9999;
+    border-right: 1px solid #fff;
+    overflow: auto;
+    height: 100%;
+    top: 0px;
+    left: -100%;
+    padding: 0px;
+  }
+  
+  .tenten_25072024 .tg_header_2024 #menu_mobile_full_hd2024 .tg_login_hd {
+    padding: 0px 15px;
+  }
+  
+  .tenten_25072024 .tg_header_2024 #menu_mobile_full_hd2024 .tg_login_hd a {
+    color: #0066b2;
+    display: table;
+    width: 100%;
+    margin: 0px auto;
+    text-align: center;
+    border: 1px solid #0066b2;
+    border-radius: 99px;
+    padding: 11px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+  .tenten_25072024 .tg_header_2024 #menu_mobile_full_hd2024 .mobile_flex {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    line-height: 24px;
+    width: 100%;
+  }
+  
+  .tenten_25072024 .tg_header_2024 #menu_mobile_full_hd2024 .tg_lang_2023 {
+    margin-left: auto;
+    position: relative;
+    padding: 0px 17px 0px 0px;
+    color: #0066b2;
+  }
+  
+  .tenten_25072024 .tg_header_2024 #menu_mobile_full_hd2024 .tg_support_hd a {
+    color: #000;
+  }
+  
+  .tenten_25072024
+    .tg_header_2024
+    #menu_mobile_full_hd2024
+    .tg_support_hd
+    a::after {
+    content: url("../images/icon_rightup_20082024.html");
+    margin: 0px 0px 0px 5px;
+    position: relative;
+    top: 2px;
+  }
+  
+  .tenten_25072024 #menu_mobile_full_hd2024 .tg_lang_2023::after {
+    content: "\f106";
+    font: normal normal normal 14px/1 FontAwesome;
+    position: absolute;
+    top: 3px;
+    right: 0px;
+    font-size: 16px;
+  }
+  
+  .tenten_25072024 #menu_mobile_full_hd2024 .tg_lang_2023 p {
+    margin: 0px;
+  }
+  
+  .tenten_25072024 #menu_mobile_full_hd2024 .close_menu {
+    padding: 10px;
+    font-size: 20px;
+    text-align: right;
+    color: #fff;
+    background: none;
+    cursor: pointer;
+    position: absolute;
+    right: 0px;
+    background: #14406f;
+    display: none;
+    cursor: pointer;
+    top: 0px;
+    z-index: 999;
+  }
+  
+  .tenten_25072024 #menu_mobile_full_hd2024 .mobile-menu {
+    margin: 10px 0px 0px 0px;
+    padding: 0px 15px;
+  }
+  
+  .tenten_25072024 #menu_mobile_full_hd2024 ul li {
+    width: 100%;
+    display: block;
+  }
+  
+  .tenten_25072024 #menu_mobile_full_hd2024 ul li.menu-item-has-children > a {
+    font-weight: 600;
+  }
+  
+  .tenten_25072024 #menu_mobile_full_hd2024 ul li {
+    position: relative;
+    font-weight: 400;
+  }
+  
+  .tenten_25072024 #menu_mobile_full_hd2024 ul.menu > li {
+    margin: 0px;
+    padding: 12px 0px;
+    border-bottom: 1px dashed #cce0f0;
+  }
+  
+  .tenten_25072024
+    #menu_mobile_full_hd2024
+    ul.menu
+    > li
+    #menu_mobile_full_hd2024
+    ul.menu
+    > li.active
+    > a {
+    color: #0066b3;
+  }
+  
+  .tenten_25072024 #menu_mobile_full_hd2024 ul.menu > li:last-child {
+    border-bottom: none;
+  }
+  
+  .tenten_25072024 #menu_mobile_full_hd2024 ul.menu li a {
+    color: #2c2c2c;
+    font-size: 18px;
+    line-height: 24px;
+    transition: all 0.3s;
+    position: relative;
+  }
+  
+  .tenten_25072024 #menu_mobile_full_hd2024 ul.menu > li > a {
+    pointer-events: none;
+  }
+  
+  .tenten_25072024 #menu_mobile_full_hd2024 ul.menu li a:hover {
+    color: #0066b2;
+  }
+  
+  .tenten_25072024 #menu_mobile_full_hd2024 ul.menu li a em {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 14px;
+    color: #ffffff;
+    padding: 0px 3px;
+    background: #f42e1c;
+    border-radius: 4px;
+    position: absolute;
+    top: 0px;
+  }
+  
+  .tenten_25072024 #menu_mobile_full_hd2024 ul li a:hover {
+    text-decoration: none;
+    background: none;
+  }
+  
+  .tenten_25072024 #menu_mobile_full_hd2024 li span {
+    margin: 0px 0px 0px 10px;
+  }
+  
+  .tenten_25072024 #menu_mobile_full_hd2024 .sub-menu {
+    display: none;
+    padding: 0px 0px 0px 0px;
+    border-top: 1px solid #fff;
+    margin: 10px 0px 0px 0px;
+  }
+  
+  .tenten_25072024 #menu_mobile_full_hd2024 .sub-menu li {
+    padding: 15px 0px 15px 15px;
+  }
+  
+  .tenten_25072024 #menu_mobile_full_hd2024 .sub-menu li:last-child {
+    border-bottom: none;
+    padding: 15px 0px 0px 15px;
+  }
+  
+  .tenten_25072024 #menu_mobile_full_hd2024 .sub-menu li a {
+    text-transform: none;
+    font-size: 14px;
+    padding: 6px 0px 6px 15px;
+    transition: all 0.3s;
+    font-size: 14px;
+    line-height: 22px;
+    position: relative;
+    transition: all 0.3s;
+  }
+  
+  .tenten_25072024 #menu_mobile_full_hd2024 .sub-menu li a::before {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border: 1px solid #0066b2;
+    border-radius: 50%;
+    position: absolute;
+    top: 14px;
+    left: 0;
+  }
+  
+  .tenten_25072024 #menu_mobile_full_hd2024 .sub-menu li > a:hover {
+    color: #0066b3;
+  }
+  
+  .tenten_25072024 #menu_mobile_full_hd2024 li.menu-item-has-children::before {
+    content: "\f105";
+    position: absolute;
+    right: 0px;
+    top: 16px;
+    color: #2c2c2c;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 16px;
+  }
+  
+  .tenten_25072024 #menu_mobile_full_hd2024 li.editBefore_mobile::before {
+    content: "\f107" !important;
+  }
+  
+  .tenten_25072024
+    #menu_mobile_full_hd2024
+    .menu
+    li
+    ul.sub-menu
+    li.not-have-child {
+    padding: 0px;
+    display: table;
+  }
+  
+  .tenten_25072024
+    #menu_mobile_full_hd2024
+    .menu
+    li
+    ul.sub-menu
+    li.not-have-child
+    > a {
+    display: table;
+    width: 100%;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  
+  .tenten_25072024 #menu_mobile_full_hd2024 .menu > li.not-have-child > a {
+    display: inline-block;
+  }
+  
+  .tenten_25072024 #menu_mobile_full_hd2024 .sub-menu li {
+    padding: 10px 0px 10px 15px;
+  }
+  
+  .tenten_25072024 #menu_mobile_full_hd2024 .sub-menu li:last-child {
+    padding: 10px 0px 0px 15px;
+  }
+  
+  .tenten_25072024 #menu_mobile_full_hd2024 .menu li select {
+    border: none;
+    color: #fff;
+    background: #0066b3;
+  }
+  
+  .tenten_25072024 #menu_mobile_full_hd2024 .menu li select:focus {
+    outline: none;
+    border: none;
+  }
+  .tenten_25072024 #menu_mobile_full_hd2024 .header_mobif {
+    display: flex;
+    padding: 15px 15px 5px 15px;
+    align-items: center;
+  }
+  .tenten_25072024 #menu_mobile_full_hd2024 .tg_close_mb {
+    margin: 0px 0px 0px auto;
+  }
+  /* END MENU MOBILE*/
+  .tenten_25072024 .icon_mb_click {
+    display: none;
+    cursor: pointer;
+  }
+  /*end css content rau*/
+  @media (min-width: 1025px) and (max-width: 1599px) {
+    .tenten_25072024
+      .tg_header_2024
+      .tg_menu_hd_2024
+      .tg_nav_l_2024
+      > li.menu-item-has-children
+      > a {
+      font-size: 14px;
+      line-height: 22px;
+      gap: 2px;
+    }
+  
+    .tenten_25072024 .cart_complete .next_journey_btn {
+      margin: 100px auto 0px auto;
+    }
+    .tenten_25072024 .cart_complete .complete_general {
+      padding: 100px 0px 0px 0px;
+    }
+    .tenten_25072024
+      .tg_header_2024
+      .tg_menu_hd_2024
+      .tg_nav_l_2024
+      > li.menu-item-has-children
+      > a {
+      font-size: 13px;
+    }
+    .tenten_25072024 .tg_header_2024 .tg_menu_hd_2024 .tg_nav_l_2024 {
+      gap: 17px;
+    }
+    .tenten_25072024
+      .tg_header_2024
+      .tg_menu_hd_2024
+      .tg_nav_l_2024
+      > li.menu-item-has-children
+      > a:after {
+    }
+  
+    .tenten_25072024 .tg_header_2024 .logo_numberone {
+      display: none;
+    }
+  
+    .tenten_25072024 .tg_header_2024 .logo_tenten {
+      padding: 0;
+    }
+  
+    .tenten_25072024 .tg_header_2024 .logo_tenten:before {
+      background: none;
+    }
+  }
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    .tenten_25072024 .tg_header_2024 .hd_middle {
+      width: 65%;
+    }
+    .tenten_25072024 .tg_header_2024 .logo_tenten:before {
+      display: none;
+    }
+    .tenten_25072024
+      .tg_header_2024
+      .tg_menu_hd_2024
+      .tg_nav_l_2024
+      > li.menu-item-has-children
+      > a:after {
+    }
+    .tenten_25072024
+      .tg_header_2024
+      .tg_menu_hd_2024
+      .tg_nav_l_2024
+      > li.menu-item-has-children
+      > a {
+      font-size: 13px;
+    }
+    .tenten_25072024 .tg_header_2024 .logo_tenten {
+      padding: 0;
+    }
+    .tenten_25072024 .tg_header_2024 .logo_numberone {
+      display: none;
+    }
+    .tenten_25072024 .tg_header_2024 .tg_menu_hd_2024 .tg_nav_l_2024 {
+      gap: 14px;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .tenten_25072024.tg_landing_wrap .tg_register_hd_2024 {
+      display: block;
+    }
+    .tenten_25072024.tg_landing_wrap .tg_register_hd_2024 a {
+      padding: 5px 11px;
+    }
+    .tenten_25072024 .tg_header_2024 .icon_mb_click {
+      display: block !important;
+    }
+    .tenten_25072024 .tg_header_2024 .logo_tenten:before {
+      background: none;
+    }
+    .tenten_25072024 .tg_header_2024 .logo_tenten {
+      padding: 0;
+      max-width: 140px;
+    }
+    .tenten_25072024 .tg_header_2024 .hd_middle {
+      display: none;
+    }
+  }
+  @media (max-width: 767px) {
+    .tenten_25072024.tg_landing_wrap .logo_numberone {
+      display: none;
+    }
+    .tenten_25072024 .icon_mb_click {
+      display: block !important;
+    }
+    .tenten_25072024 .tg_header_2024 .logo_tenten:before {
+      background: none;
+    }
+    .tenten_25072024 .tg_header_2024 .logo_tenten {
+      padding: 0;
+      max-width: 140px;
+    }
+    .tenten_25072024 .tg_header_2024 .hd_middle {
+      display: none;
+    }
+    .tenten_25072024.tg_landing_wrap .tg_header_2024 .tg_cart_hd_2024 {
+      display: block;
+    }
+    .tenten_25072024.tg_landing_wrap .tg_register_hd_2024 {
+      display: block;
+    }
+    .tenten_25072024.tg_landing_wrap .tg_register_hd_2024 a {
+      padding: 5px 11px;
+    }
+    .tenten_25072024.tg_landing_wrap .tg_header_2024 .hd_right {
+      position: relative;
+      top: 3px;
+    }
+  }
+  
